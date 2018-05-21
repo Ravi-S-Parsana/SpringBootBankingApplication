@@ -25,10 +25,6 @@ import com.userFront.Domain.security.UserRole;
 @Entity
 public class User implements UserDetails{
 
-    /**
-	 * 
-	 */
-	private static final long serialVersionUID = -3298604438414848533L;
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "userId", nullable = false, updatable = false)
